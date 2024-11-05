@@ -1,6 +1,8 @@
 package kitten
 
 import (
+	"fmt"
+
 	"github.com/YanLOo97/cat"
 )
 
@@ -18,4 +20,8 @@ func BigMeow() string {
 
 func BigMeows() string {
 	return cat.WhenGrownUp(Meows())
+}
+
+func From11() {
+	fmt.Println("I'm from version 1.1.0")
 }
